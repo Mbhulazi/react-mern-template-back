@@ -16,7 +16,7 @@ app.use(cookieParser());
 //cors
 app.use(
   cors({
-    origin: ["http://localhost:3000", "https://sk-fullstack-t.onrender.com"],
+    origin: ["http://localhost:3000", "https://react-mern-template-front.onrender.com"],
     credentials: true,
   })
 );
